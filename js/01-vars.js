@@ -12,4 +12,14 @@ const shouldConfirm = false;
 
 
 // - Опреатор typeof
+const type = typeof 5;
+console.log(type);
+
 // - Как window.alert() блокирует интерпретатор
+
+// console.log('до');
+// alert('диалоговое окно');
+// console.log('после');
+
+
+
