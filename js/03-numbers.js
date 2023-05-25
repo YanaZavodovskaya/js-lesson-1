@@ -5,13 +5,13 @@ let elementWidth = '50px';
 // parseInt запинается на первом не числе
 // console.log('elementWidth: ', result);
 elementWidth = Number.parseInt(elementWidth);
-console.log('elementWidth: ', elementWidth);
+// console.log('elementWidth: ', elementWidth);
 
 
 let elementHeight = '200.74px';
 elementHeight = Number.parseFloat(elementHeight);
 // parseFloat парсит числа с плавающей точкой
-console.log('elementHeignt: ', elementHeight);
+// console.log('elementHeignt: ', elementHeight);
 
 // - Метод число.toFixed(digits) оставляет столько знаков после точки, сколько указываешь в скобках. 
 // - Настройки на примере console.log(Number(число.toFixed(digits)))
@@ -19,7 +19,7 @@ let salary = 1300.16472;
 // salary = salary.toFixed(3);
 // salary = Number(salary);
 salary = Number(salary.toFixed(3));
-console.log(salary);
+// console.log(salary);
 // console.log(Number(salary.toFixed(3)));
 
 
@@ -28,10 +28,10 @@ console.log(salary);
 let quantity = '30';
 let value = 'Эту строку невозможно привести к числу';
 
-console.log('преобразует строку 5 в число', Number('5'));
-console.log('true это 1', Number(true));
-console.log('false это 0', Number(false));
-console.log('не число', Number('hdfhnd'));
+// console.log('преобразует строку 5 в число', Number('5'));
+// console.log('true это 1', Number(true));
+// console.log('false это 0', Number(false));
+// console.log('не число', Number('hdfhnd'));
 
 
 // Объект Math
@@ -39,7 +39,7 @@ console.log('не число', Number('hdfhnd'));
     // - Exponent operator
 // console.log(Math);
 // console.log(Math.PI);
-console.log('извлекает квадратный корень', Math.sqrt(144));
+// console.log('извлекает квадратный корень', Math.sqrt(144));
 
 
 // const base = 2;
@@ -88,14 +88,32 @@ console.log('извлекает квадратный корень', Math.sqrt(14
 
 // console.log('рандомный результат от 30 до 50', result);
 
-const colors = ['tomato', 'teal', 'orange', 'deeppink', 'blue', 'red', 'green'];
-const max = colors.length - 1;
-const min = 0;
+// *************** Изменение цвета экрана ***************
+// const colors = ['tomato', 'teal', 'orange', 'deeppink', 'blue', 'red', 'green'];
+// const max = colors.length - 1;
+// const min = 0;
 
-const index = Math.round(Math.random() * (max - min) + min);
+// const index = Math.round(Math.random() * (max - min) + min);
 
-const color = colors[index];
+// const color = colors[index];
 
-console.log(color);
+// console.log(color);
 
-document.body.style.backgroundColor = color;
+// document.body.style.backgroundColor = color;
+// ************** \Изменение цвета экрана ***************
+
+
+// ************** Пробная задачка ***************
+// введи первое число диапазона
+// let firstNum = prompt('Введи первое число!');
+// firstNum = Number(firstNum);
+// console.log(firstNum);
+
+// введи второе число диапазона
+// let secondNum = prompt('Введи второе число!');
+// secondNum = Number(secondNum);
+// console.log(secondNum);
+
+// const result = Math.round(Math.random() * (secondNum - firstNum ) + firstNum );
+
+// console.log('рандомный результат от', firstNum,'до', secondNum, 'будет', result);
